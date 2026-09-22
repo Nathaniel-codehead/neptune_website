@@ -4,7 +4,92 @@
     box-sizing: border-box;
 }
 
+html { 
+    scroll-behavior: smooth; 
+}
+
 .flex_row {
     display: flex;
     flex-direction: row;
+}
+
+.flex_column {
+    display: flex;
+    flex-direction: column;
+}
+
+body {
+    background-color: #282828;
+    color: #fff;
+}
+
+header {
+    background-color: #1C4EAD;
+} 
+
+header div {
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+nav {
+    padding: 20px 30px;
+    gap: 30px;
+}
+
+p {
+    font-size: 1.5rem;
+    max-width: 800px;
+    padding: 10px 0px;
+}
+
+#frontpage_image {
+    width: 100%;
+}
+
+h1, h2{
+    font-size: 4rem;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-top: 10px;
+}
+
+img {
+    width: 450px;
+}
+
+#orbit_section img {
+    width: 600px;
+}
+
+#orbit_section p {
+    max-width: 600px;
+}
+
+#orbit_section div {
+    justify-content: space-between;
+}
+
+a:hover {
+    color: #ce94f3;
+    font-weight: bold;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+section {
+    padding: 50px 20px;
+}
+
+#moons_image_container {
+    align-items:flex-end;
+    gap: 10px;
+}
+
+#info_container {
+    justify-content: space-between;
 }
